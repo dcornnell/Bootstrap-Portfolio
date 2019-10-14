@@ -13,6 +13,7 @@ img {
 .content-container {
     border: 1px solid lightgray;
     background-color: white;
+    padding: 10px;
     margin: 20px auto;
 }
 
