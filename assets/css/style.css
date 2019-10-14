@@ -1,0 +1,17 @@
+body {
+    background-image: url("../images/craft-paper.jpg");
+    background-color: antiquewhite;
+    color: gray;
+    font-family: arial;
+}
+
+img {
+    float: left;
+    margin: 0px 10px 10px 0px;
+}
+
+.content-container {
+    border: 1px solid lightgray;
+    background-color: white;
+    margin: 20px auto;
+}
