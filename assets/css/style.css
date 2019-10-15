@@ -5,16 +5,17 @@ body {
     font-family: arial;
 }
 
-img {
+.profile {
     float: left;
     margin: 0px 10px 10px 0px;
+    padding: 0px 10px 10px 0px;
 }
 
 .content-container {
     border: 1px solid lightgray;
     background-color: white;
-    padding: 10px;
     margin: 20px auto;
+    padding: 20px 0px;
 }
 
 .footer {
@@ -26,4 +27,28 @@ img {
     background-color: #343a40;
     color: white;
     font-size: .5em;
+}
+
+.caption {
+    max-width: 100%;
+    bottom: 5px;
+    position: absolute;
+    background-color: rgba(50, 50, 50, 0.5);
+    ;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+}
+
+.thumb {
+    margin: 5px 5px;
+}
+
+.thumb:hover .img-thumbnail {
+    background-color: darkred;
+}
+
+.thumb:hover .caption {
+    background-color: darkred;
 }
